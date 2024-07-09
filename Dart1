@@ -1,0 +1,17 @@
+import 'dart:io';
+
+void main(){
+  print ('hello world');
+
+  stdout.write('enter your name');
+  var name = stdin.readLineSync();
+  print("welcome,$name");
+  var myC= myClass();
+  myC.printName();
+}
+class myClass{
+  void printName()
+  {
+    print("and jhon");
+  }
+}
