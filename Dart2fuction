@@ -1,1 +1,31 @@
+void main()
+{
 
+  var myC= myclass();
+  myC.printName("Jhon");
+  myC.printName("rana");
+}
+class myclass{
+  void printName(var name){
+    print (name);
+  }
+}
+
+
+//math function
+
+void main()
+{
+var mathC= mathCalculator();
+print( mathC.math(40,50));
+print( mathC.math(5,6));
+
+}
+class mathCalculator{
+ int math (int a,int b)
+  {
+    int add= a+b;
+   return add;
+
+  }
+}
