@@ -5,4 +5,30 @@ main(){
   print("$listNames");
 }
 
-2.
+2.addall,insert,insertAll
+main(){
+  var listNames=[10,20,30,40];
+  listNames.add(50);
+  print("$listNames");
+
+  var names=[];
+  names.add('saif');
+  names.add('Rana');
+  names.addAll(listNames);
+  names.insert(2, 'Likhon');
+  names.insertAll(1, listNames);
+
+  print("$names");
+
+}
+3.update
+main(){
+  var listNames=[10,20,30,40];
+  listNames.add(50);
+
+  print("$listNames");
+  listNames[2]=31;//update
+  print("$listNames");
+
+}
+4.
