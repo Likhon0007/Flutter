@@ -13,3 +13,15 @@ main(){
   print(map_name);
 
 }
+2.
+//using object and constructor
+main(){
+
+  var mapName=Map();
+
+ mapName['Name']="Raman";
+ mapName['Year']=10;
+ mapName['avg']=5;
+ print(mapName);
+ 
+}
