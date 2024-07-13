@@ -1,0 +1,15 @@
+main(){
+
+  int no =1;
+  do{
+    print("hi");
+    no++;
+  }while(no<11);
+
+//while 
+ int  t=4;
+  while(t<5){
+    print("while");
+    t++;
+  }
+}
