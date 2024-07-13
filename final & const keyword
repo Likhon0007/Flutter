@@ -1,0 +1,15 @@
+main(){
+
+  print('Welcome to Dart');
+final var name;
+ //final String name;
+ name='Rana';
+ //name='Jhon';
+
+  const roll='34';
+  //roll='50';
+
+
+const names=["Jhon","Jony","Jidan"];
+name.add("Peter");
+}
